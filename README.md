@@ -26,9 +26,6 @@ VPC Networking project:
 
 
 
-![image](https://github.com/user-attachments/assets/1f98558a-5380-4199-9568-766d600c733f)
-
-
 Step 1: Create a VPC 
 
 ![image](https://github.com/user-attachments/assets/6a077feb-0207-4fcf-88ae-88db9008d14f)

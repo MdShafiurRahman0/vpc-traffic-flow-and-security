@@ -37,6 +37,13 @@ Step 1: Create  Subnets
 
 Configure your subnet settings:
 
+1. **VPC ID:** name VPC
+2. **Subnet name:** Public 1
+3. **Availability Zone:** Select the first Availability Zone in the list.
+4. **IPv4 VPC CIDR block:** 10.0.0.0/16
+5. **IPv4 subnet CIDR block:** 10.0.0.0/24
+
+
 
 ![image](https://github.com/user-attachments/assets/edcac603-4264-4d3d-adb5-a0514e846d1c)
 

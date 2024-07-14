@@ -50,6 +50,10 @@ Configure your subnet settings:
 ![image](https://github.com/user-attachments/assets/edcac603-4264-4d3d-adb5-a0514e846d1c)
 
 
+
+
+![2024-07-13_18h27_40](https://github.com/user-attachments/assets/cb27557e-592b-4013-b1d5-815fdd69abab)
+
 Step 3: Create an Internet Gateway
 
 ![image](https://github.com/user-attachments/assets/8afd2421-3c1d-4310-ae09-35efddc24c12)

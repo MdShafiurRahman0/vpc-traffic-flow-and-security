@@ -63,7 +63,6 @@ Configure your subnet settings:
 
 
 
-![2024-07-13_18h27_40](https://github.com/user-attachments/assets/cb27557e-592b-4013-b1d5-815fdd69abab)
 
 Step 3: Create an Internet Gateway
 

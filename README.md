@@ -88,6 +88,31 @@ Step 4: Create a Route Table
 
 
 
+💡 Why is the destination 0.0.0.0/0?
+0.0.0.0/0 means all IPv4 addresses! When you set 0.0.0.0/0 as the destination in a route table, you are creating a default route that sends any traffic that doesn't match more specific routes on your route table.
+
+In your case, since the the only other route has a destination of 10.0.0.0/16, this means all traffic that is not bound for another resource within your VPC is bound for the internet gateway!
+
+The internet gateway then forwards this traffic to the internet, allowing your resources to communicate with external networks and users.
+
+
+
+
+
 ![2024-07-13_13h58_40](https://github.com/user-attachments/assets/f770a9e1-1b94-4544-a9fa-a37e116480f3)
+
+
+![image](https://github.com/user-attachments/assets/f036ba07-52f6-4548-af44-dae0b3cc731a)
+
+
+Step 5: Create a security group
+
+
+![image](https://github.com/user-attachments/assets/cefcd7a8-8fc2-4940-95ab-23a18107592a)
+
+
+
+
+![2024-07-13_17h10_07](https://github.com/user-attachments/assets/cd34f79e-4f9f-45e4-a667-5d3e0903ef6e)
 
 

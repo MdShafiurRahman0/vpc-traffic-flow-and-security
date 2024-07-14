@@ -32,7 +32,8 @@ Step 1: Create a VPC
 
 
 
-Step 1: Create  Subnets
+Step 2: Create  Subnets
+
 
 
 Configure your subnet settings:
@@ -44,10 +45,49 @@ Configure your subnet settings:
 5. **IPv4 subnet CIDR block:** 10.0.0.0/24
 
 
+![2024-07-13_13h13_59](https://github.com/user-attachments/assets/722ba48a-8b25-4153-809e-5b3a4fa29960)
 
 ![image](https://github.com/user-attachments/assets/edcac603-4264-4d3d-adb5-a0514e846d1c)
 
 
+Step 3: Create an Internet Gateway
 
+![image](https://github.com/user-attachments/assets/8afd2421-3c1d-4310-ae09-35efddc24c12)
+
+
+
+![2024-07-13_13h25_32](https://github.com/user-attachments/assets/73275050-0161-4fb0-a4e2-473da8fb9c76)
+
+
+
+1. **Choose Create internet gateway.**
+2. **Select your newly created internet gateway and choose Actions, then Attach to VPC.**
+3. **Select NextWork VPC.**
+4. **Select Attach internet gateway.**
+
+
+![2024-07-13_13h27_41](https://github.com/user-attachments/assets/b39c154a-9267-4aed-b7b9-23519aadd66b)
+
+
+Step 4: Create a Route Table
+
+![image](https://github.com/user-attachments/assets/99d065a3-6111-423b-81cc-33de3bade23a)
+
+
+![2024-07-13_13h55_40](https://github.com/user-attachments/assets/02c571d6-36f1-4bff-989f-4e41b1ec2cd0)
+
+
+
+
+1. **Select the Routes tab.**
+2. **Choose Edit routes.**
+3. **Choose Add route near the bottom of the page.**
+
+
+![2024-07-13_13h58_15](https://github.com/user-attachments/assets/1c6f75c5-d08b-40d5-b984-dab8b62070e0)
+
+
+
+![2024-07-13_13h58_40](https://github.com/user-attachments/assets/f770a9e1-1b94-4544-a9fa-a37e116480f3)
 
 

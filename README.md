@@ -2,11 +2,22 @@
 
 VPC Networking project: 
 
-1. ☁️ An Amazon VPC (amazing!)
-2. 🥅 A public subnet (woohoo!)
-3. 🚪 An internet gateway (go you!)
 
-   Let's get ready to:
+### Project Architecture:
+
+
+![image](https://github.com/user-attachments/assets/6eabf784-0b4b-46c4-bc28-351d1e744efe)
+
+
+
+
+1. ☁️ An Amazon VPC (amazing!)
+3. 🥅 A public subnet (woohoo!)
+4. 🚪 An internet gateway (go you!)
+
+
+
+#Let's get ready to:
 
 1. 🚏 Create a route table.
 2. 👮‍♀️ Create a security group.
@@ -119,4 +130,24 @@ Step 5: Create a security group
 
 ![2024-07-13_17h10_07](https://github.com/user-attachments/assets/cd34f79e-4f9f-45e4-a667-5d3e0903ef6e)
 
+
+## Step 6: Create a Network ACL
+
+![image](https://github.com/user-attachments/assets/06917714-4e82-416d-abe0-a197277bc878)
+
+
+
+
+![2024-07-13_18h17_04](https://github.com/user-attachments/assets/facc0c7f-8554-4239-8100-a9fdc79394ad)
+
+
+
+## Choose the top network ACLs that's associated with your Public 1 subnet, and check out the tabs for Inbound rules and Outbound rules.
+
+![image](https://github.com/user-attachments/assets/2941b630-ddc3-4850-8558-99da520ad704)
+
+
+## Under the Subnet associations tab, select Edit subnet associations.
+
+![2024-07-13_18h27_40](https://github.com/user-attachments/assets/5cb8e991-0da1-4515-a357-510a93b6b78e)
 

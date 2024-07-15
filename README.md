@@ -1,9 +1,8 @@
-### VPC Traffic Flow and Security
-
-VPC Networking project: 
+# VPC Traffic Flow and Security
 
 
-### Project Architecture:
+
+# Project Architecture:
 
 
 ![image](https://github.com/user-attachments/assets/6eabf784-0b4b-46c4-bc28-351d1e744efe)
@@ -26,7 +25,7 @@ VPC Networking project:
 
 
 
-Step 1: Create a VPC 
+# Step 1: Create a VPC 
 
 ![image](https://github.com/user-attachments/assets/6a077feb-0207-4fcf-88ae-88db9008d14f)
 
@@ -40,7 +39,7 @@ Step 1: Create a VPC
 
 
 
-Step 2: Create  Subnets
+# Step 2: Create  Subnets
 
 
 
@@ -61,7 +60,7 @@ Configure your subnet settings:
 
 
 
-Step 3: Create an Internet Gateway
+# Step 3: Create an Internet Gateway
 
 ![image](https://github.com/user-attachments/assets/8afd2421-3c1d-4310-ae09-35efddc24c12)
 
@@ -80,7 +79,7 @@ Step 3: Create an Internet Gateway
 ![2024-07-13_13h27_41](https://github.com/user-attachments/assets/b39c154a-9267-4aed-b7b9-23519aadd66b)
 
 
-Step 4: Create a Route Table
+# Step 4: Create a Route Table
 
 ![image](https://github.com/user-attachments/assets/99d065a3-6111-423b-81cc-33de3bade23a)
 
@@ -116,7 +115,7 @@ The internet gateway then forwards this traffic to the internet, allowing your r
 ![image](https://github.com/user-attachments/assets/f036ba07-52f6-4548-af44-dae0b3cc731a)
 
 
-Step 5: Create a security group
+# Step 5: Create a security group
 
 
 ![image](https://github.com/user-attachments/assets/cefcd7a8-8fc2-4940-95ab-23a18107592a)
@@ -127,7 +126,7 @@ Step 5: Create a security group
 ![2024-07-13_17h10_07](https://github.com/user-attachments/assets/cd34f79e-4f9f-45e4-a667-5d3e0903ef6e)
 
 
-## Step 6: Create a Network ACL
+# Step 6: Create a Network ACL
 
 ![image](https://github.com/user-attachments/assets/06917714-4e82-416d-abe0-a197277bc878)
 
@@ -138,12 +137,12 @@ Step 5: Create a security group
 
 
 
-## Choose the top network ACLs that's associated with your Public 1 subnet, and check out the tabs for Inbound rules and Outbound rules.
+# Choose the top network ACLs that's associated with your Public 1 subnet, and check out the tabs for Inbound rules and Outbound rules.
 
 ![image](https://github.com/user-attachments/assets/2941b630-ddc3-4850-8558-99da520ad704)
 
 
-## Under the Subnet associations tab, select Edit subnet associations.
+# Under the Subnet associations tab, select Edit subnet associations.
 
 ![2024-07-13_18h27_40](https://github.com/user-attachments/assets/5cb8e991-0da1-4515-a357-510a93b6b78e)
 
